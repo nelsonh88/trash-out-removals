@@ -74,6 +74,16 @@ p {
   background-color: rgba(255, 255, 255, 0.85);
 }
 
+.logo {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px;
+      height: auto;
+      margin-bottom: 30px;
+      margin-top: 30px;
+}
+
 #mainNav {
   background-color: rgba(47, 23, 15, 0.9);
   font-family: 'Raleway';
