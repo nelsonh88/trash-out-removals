@@ -2,7 +2,7 @@
 
 
 const toggle = function () {
-    let menu = document.getElementById("side-menu")
+    let menu = document.getElementById("header-links")
     if (menu.style.display === "block") {
         menu.style.display = "none";
     } else {
