@@ -11,4 +11,4 @@ const toggle = function () {
 }
 
 // document.getElementById("ham-btn").addEventListener("click", toggle);
-document.getElementById("side-menu").addEventListener("click", toggle);
+document.getElementById("header-links").addEventListener("click", toggle);
