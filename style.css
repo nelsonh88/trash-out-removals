@@ -335,6 +335,7 @@ footer p#copyright {
     .header-content {
         max-width: 1000px;
         margin: 0 auto;
+        display: block;
     }
 
     header img {
