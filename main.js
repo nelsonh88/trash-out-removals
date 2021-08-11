@@ -2,7 +2,7 @@
 
 
 const toggle = function () {
-    let menu = document.getElementById("header-links")
+    let menu = document.getElementById("nav-links")
     if (menu.style.display === "block") {
         menu.style.display = "none";
     } else {
@@ -11,4 +11,4 @@ const toggle = function () {
 }
 
 // document.getElementById("ham-btn").addEventListener("click", toggle);
-document.getElementById("header-links").addEventListener("click", toggle);
+document.getElementById("nav-links").addEventListener("click", toggle);
