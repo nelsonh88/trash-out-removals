@@ -336,18 +336,17 @@ button.cta a {
     text-transform: capitalize;
 }
 
+#about-us-section p,
 #questions-section p {
     padding-bottom: 30px;
-}
-
-#about-us-section {
-    margin-bottom: 30px;
 }
 
 figure img {
     width: 90%;
     display: block;
     margin: 0 auto;
+    height: 300px;
+    object-fit: cover;
 }
 
 footer {
