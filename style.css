@@ -312,7 +312,7 @@ figcaption a {
 }
 
 button.cta {
-    background-color: #7abf36;
+    background-color: #5f942b;
     text-align: center;
     font-size: 1.5rem;
     color: #fff;
@@ -330,8 +330,12 @@ button.cta a {
     text-decoration: none;
 }
 
+section#questions-section p {
+    text-align: center;
+}
+
 #questions-section a {
-    color: #7ABF36;
+    color: #5f942b;
     font-weight: bold;
     text-transform: capitalize;
 }
