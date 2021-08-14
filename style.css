@@ -266,7 +266,7 @@ div#nav-links {
     padding-bottom: 30px;
 }
 
-div#nav-links a {
+a {
     color: #fff;
     text-decoration: none;
 }
@@ -297,7 +297,7 @@ section {
     width: 100%;
 }
 
-section:nth-child(odd) {
+section:nth-child(even) {
     background-color: #EEE;
 }
 
@@ -339,6 +339,7 @@ section#questions-section p {
     font-weight: bold;
     text-transform: capitalize;
     font-size: 1.5rem;
+    text-decoration: underline;
 }
 
 #about-us-section p,
@@ -443,20 +444,16 @@ footer p#copyright {
         display: none;
     }
 
-    main {
-        margin-top: 170px;
-    }
-
     main.wrapper {
         max-width: 850px;
         margin: 0 auto;
         display: block;
         padding-top: 160px;
+        padding-bottom: 60px;
     }
 
     div#nav-links {
         display: block;
-        margin-bottom: 30px;
         width: 100%;
         text-align: center;
         position: relative;
@@ -515,5 +512,9 @@ footer p#copyright {
 
     span.photo-credit {
         font-size: 0.8em;
+    }
+
+    footer img {
+        width: 10%;
     }
 }
