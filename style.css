@@ -1,8 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-/* css reset below */
+/* start of css reset */
 html,
 body,
 div,
@@ -134,9 +130,11 @@ table {
     border-spacing: 0;
 }
 
-/* CSS post reset below */
+/* end of css reset */
 html {
     font-size: 100%;
+    font-family: 'Urbanist',
+        sans-serif;
     scroll-padding-top: 105px;
 }
 
@@ -170,21 +168,6 @@ header {
     padding-bottom: 20px;
 }
 
-/* .contact-links,
-.header-links {
-    display: none;
-    color: #fff;
-    background: #000;
-    position: absolute;
-    width: 100%;
-    top: 22.7vw;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 20px;
-} */
-
-
-
 button#ham-btn {
     color: #fff;
     padding: 0;
@@ -197,7 +180,6 @@ button#ham-btn {
 
 h1,
 h2 {
-    font-family: "Times New Roman", serif;
     text-align: center;
     color: #005ABE;
     font-weight: bold;
@@ -207,8 +189,8 @@ h2 {
 
 h3 {
     font-size: 1.3rem;
-    margin-bottom: 10px;
-    font-weight: bolder;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
 h3>span {
@@ -217,8 +199,7 @@ h3>span {
 
 p,
 ul {
-    font-family: "Times New Roman",
-        serif;
+
     line-height: 1.5;
     font-size: 1.2rem;
 }
@@ -226,26 +207,16 @@ ul {
 ul {
     margin-left: 15px;
     margin-bottom: 15px;
+    padding-top: 10px;
+}
+
+li {
+    padding-bottom: 5px;
 }
 
 img {
     width: 100%;
 }
-
-/* button#ham-btn {
-    color: #fff;
-    padding: 0;
-    border: none;
-    height: 100%;
-    font-size: 3.2rem;
-    background: #000;
-    align-self: center;
-} */
-
-/* button.cta a {
-    text-decoration: none;
-    color: #fff;
-} */
 
 .fas,
 .far {
@@ -313,6 +284,8 @@ figcaption a {
 
 button.cta {
     background-color: #5f942b;
+    font-family: 'Urbanist',
+        sans-serif;
     text-align: center;
     font-size: 1.5rem;
     color: #fff;
@@ -349,6 +322,11 @@ section#questions-section p {
 
 section#contact-us-section>p {
     text-align: center;
+}
+
+section#contact-us-section p>a {
+    color: #000;
+    text-decoration: underline;
 }
 
 figure img {
